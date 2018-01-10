@@ -52,9 +52,10 @@ h3 {
 }
 
 h3 {
-  font-size: 1.1rem;
+  text-align: center;
+  font-size: 1.2rem;
   font-weight: bold;
-  padding: 2rem 0;
+  padding: 1.2rem 0;
   border-bottom: 1px #dddddd solid;
   margin: 0 2rem;
   color: #4aaaa5;
@@ -118,15 +119,29 @@ article {
 aside {
   background: #ffffff;
   margin: 2rem 0;
-  border: 1px black solid;
+  border: 1px #dddddd solid;
   width: 270px;
   float: right;
+}
+
+.social-icon {
+  width: 3rem;
+}
+
+.social {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.social li {
+  padding: 2px;
+  display: inline-block;
 }
 
 footer {
   background-color: #666666;
   border-top: 5px #4aaaa5 solid;
-  height: 5rem;
+  min-height: 5rem;
   color: #ffffff;
   font-size: 0.75rem;
   text-align: center;
