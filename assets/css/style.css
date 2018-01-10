@@ -9,14 +9,24 @@ header {
 
 .content-container {
   width: 960px;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
-header:after {
+header:after,
+.content-container:after {
   content: "";
   display: table;
   clear: both;
+}
+
+#profile-img {
+  width: 200px;
+}
+
+#article-title {
+  color: #4aaaa5;
 }
 
 h1,
@@ -35,7 +45,10 @@ h1 {
 }
 
 nav {
-  float: right;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
 }
 
 .navigation {
