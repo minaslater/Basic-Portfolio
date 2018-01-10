@@ -4,6 +4,7 @@ body {
 }
 
 body {
+  background-image: url("../images/spiration-light.png");
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   display: flex;
@@ -29,11 +30,18 @@ header:after,
   clear: both;
 }
 
-#profile-img {
+.profile-img {
+  padding-right: 1rem;
   width: 200px;
+  float: left;
 }
 
-#article-title {
+.article-title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  border-bottom: 2px #dddddd solid;
+  margin: 0 2rem;
   color: #4aaaa5;
 }
 
@@ -41,6 +49,15 @@ h1,
 h2,
 h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 2rem 0;
+  border-bottom: 1px #dddddd solid;
+  margin: 0 2rem;
+  color: #4aaaa5;
 }
 
 h1 {
@@ -76,6 +93,11 @@ nav {
   padding-left: 1rem;
 }
 
+.article-content {
+  padding: 2rem;
+  line-height: 1.75rem;
+}
+
 a {
   color: #777777;
   text-decoration: none;
@@ -83,6 +105,22 @@ a {
 
 main {
   flex: 1 0 auto;
+}
+
+article {
+  background: #ffffff;
+  margin: 2rem 0;
+  width: 650px;
+  float: left;
+  border: 1px #dddddd solid;
+}
+
+aside {
+  background: #ffffff;
+  margin: 2rem 0;
+  border: 1px black solid;
+  width: 270px;
+  float: right;
 }
 
 footer {
