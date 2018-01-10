@@ -68,3 +68,8 @@ nav {
 .navigation li:not(:first-child) {
   padding-left: 1rem;
 }
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
