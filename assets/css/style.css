@@ -1,5 +1,6 @@
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
 }
 
 header {
@@ -57,4 +58,13 @@ nav {
 
 .navigation li {
   display: inline-block;
+}
+
+.navigation li:not(:last-child) {
+  padding-right: 1rem;
+  border-right: 1px #cccccc solid;
+}
+
+.navigation li:not(:first-child) {
+  padding-left: 1rem;
 }
