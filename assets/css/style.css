@@ -48,7 +48,7 @@ header:after,
 h1,
 h2,
 h3 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 h3 {
@@ -120,14 +120,15 @@ article {
   width: 47%;
   float: left;
   position: relative;
+  margin-bottom: 1.2rem;
 }
 
 .portfolio-proj:nth-child(odd) {
-  padding-right: 1rem;
+  margin-right: 1rem;
 }
 
 .portfolio-proj:nth-child(even) {
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .portfolio-img {
@@ -136,7 +137,14 @@ article {
 
 .portfolio-proj-name {
   position: absolute;
-  bottom: 0;
+  bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  background: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  padding: 1rem 0;
 }
 
 .form-field {
