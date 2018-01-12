@@ -85,6 +85,15 @@ nav {
   display: inline-block;
 }
 
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #4aaaa5;
+}
+
 .navigation li:not(:last-child) {
   padding-right: 1rem;
   border-right: 1px #cccccc solid;
@@ -99,10 +108,6 @@ nav {
   line-height: 1.75rem;
 }
 
-a {
-  color: #777777;
-  text-decoration: none;
-}
 
 main {
   flex: 1 0 auto;
