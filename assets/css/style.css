@@ -83,7 +83,6 @@ nav {
 
 .navigation li {
   display: inline-block;
-  transition: transform .2s;
 }
 
 a {
@@ -91,8 +90,8 @@ a {
   text-decoration: none;
 }
 
-.navigation li:hover {
-  transform: scale(1.1);
+.navigation a:hover {
+  color: #4aaaa5;
 }
 
 .navigation li:not(:last-child) {
